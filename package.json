@@ -1,0 +1,26 @@
+{
+  "name": "idevice",
+  "version": "1.0.0",
+  "description": "Discover which iOS devices are used on your site",
+  "main": "idevice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dieulot/idevice.git"
+  },
+  "keywords": [
+    "apple",
+    "ios",
+    "iphone",
+    "ipad",
+    "ipod"
+  ],
+  "author": "Alexandre Dieulot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dieulot/idevice/issues"
+  },
+  "homepage": "https://dieulot.fr/idevice/"
+}
