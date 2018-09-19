@@ -84,7 +84,7 @@ var iDevice = (function() {
     if (s == '768x1024') {
       return 'iPad Pro 9.7 (2016)'
     }
-    if (s == '1366x1024') {
+    if (s == '1024x1366') {
       return 'iPad Pro 12.9 (2016)'
     }
   }
@@ -96,10 +96,10 @@ var iDevice = (function() {
   }
 
   if (cpu == 'A10X') {
-    if (s == '1112x834') {
+    if (s == '834x1112') {
       return 'iPad Pro 10.5 (2017)'
     }
-    if (s == '1366x1024') {
+    if (s == '1024x1366') {
       return 'iPad Pro 12.9 (2017)'
     }
   }
