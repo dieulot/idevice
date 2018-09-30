@@ -91,7 +91,7 @@ var iDevice = (function() {
 
   if (cpu == 'A10') {
     if (s == '768x1024') {
-      return 'iPad (2017)'
+      return 'iPad (2018)'
     }
   }
 
