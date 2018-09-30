@@ -85,7 +85,7 @@ var iDevice = (function() {
       return 'iPad Pro 9.7 (2016)'
     }
     if (s == '1024x1366') {
-      return 'iPad Pro 12.9 (2016)'
+      return 'iPad Pro 12.9 (2015)'
     }
   }
 
