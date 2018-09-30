@@ -4,7 +4,7 @@
   "description": "Discover which iOS devices are used on your site",
   "main": "idevice.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests.js"
   },
   "repository": {
     "type": "git",
