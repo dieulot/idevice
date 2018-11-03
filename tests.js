@@ -29,7 +29,7 @@ function test(name, gpu, width, height, devicePixelRatio, userAgent = '') {
 
   if (name !== iDevice) {
     hasFailedTest = true
-    console.error(`X    ${name} ≠ ${iDevice}`)
+    console.error(`X    expected "${name}", "${iDevice}" returned`)
   }
 }
 
