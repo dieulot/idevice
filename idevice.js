@@ -1,3 +1,9 @@
+/*!
+iDevice.js v1.0.1
+(c) Alexandre Dieulot
+dieulot.fr/idevice/license
+*/
+
 var iDevice = (function() {
   var canvasElement = document.createElement('canvas')
   try {
