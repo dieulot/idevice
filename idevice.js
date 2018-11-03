@@ -1,5 +1,5 @@
 /*!
-iDevice.js v1.0.1
+iDevice.js v1.0.2
 (c) Alexandre Dieulot
 dieulot.fr/idevice/license
 */

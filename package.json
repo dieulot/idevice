@@ -1,6 +1,6 @@
 {
   "name": "idevice",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Discover which iOS devices are used on your site",
   "main": "idevice.js",
   "scripts": {
