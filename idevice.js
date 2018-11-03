@@ -130,5 +130,14 @@ var iDevice = (function() {
     }
   }
 
+  if (cpu == 'A12X') {
+    if (s == '834x1194') {
+      return 'iPad Pro 11 (2018)'
+    }
+    if (s == '1024x1366') {
+      return 'iPad Pro 12.9 (2018)'
+    }
+  }
+
   return 'Unidentified ' + cpu + ' ' + s + '@' + dpr
 })();
