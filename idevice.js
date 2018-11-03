@@ -53,37 +53,36 @@ var iDevice = (function() {
     }
   }
 
+  if (s == '320x568') {
+    if (cpu == 'A8' && navigator.userAgent.indexOf('iPod') > -1) {
+      return 'iPod Touch 6'
+    }
+    if (cpu == 'A9') {
+      return 'iPhone SE'
+    }
+  }
+
   var models = ['6', '6s', '7', '8']
   var cpuGeneration = parseInt(cpu.substr(1))
   if (cpuGeneration >= 8 && cpuGeneration <= 11) {
-    if (s == '375x667') {
+    if (dpr == 2 && (s == '375x667' || s == '320x568')) {
       return 'iPhone ' + models[cpuGeneration - 8]
     }
-    if (s == '414x736') {
+    if (dpr == 3 && (s == '414x736' || s == '375x667')) {
       return 'iPhone ' + models[cpuGeneration - 8] + ' Plus'
     }
   }
 
-  if (cpu == 'A8') {
-    if (s == '320x568') {
-      return 'iPod Touch 6'
-    }
-    if (s == '768x1024') {
-      return 'iPad mini 4'
-    }
+  if (cpu == 'A8' && s == '768x1024') {
+    return 'iPad mini 4'
   }
 
-  if (cpu == 'A8X') {
+  if (cpu == 'A8X' && s == '768x1024') {
     return 'iPad Air 2'
   }
 
-  if (cpu == 'A9') {
-    if (s == '320x568') {
-      return 'iPhone SE'
-    }
-    if (s == '768x1024') {
-      return 'iPad (2017)'
-    }
+  if (cpu == 'A9' && s == '768x1024') {
+    return 'iPad (2017)'
   }
 
   if (cpu == 'A9X') {
@@ -117,14 +116,16 @@ var iDevice = (function() {
   }
 
   if (cpu == 'A12') {
-    if (s == '375x812') {
-      return 'iPhone XS'
-    }
-    if (s == '414x896') {
-      if (dpr == 2) {
+    if (dpr == 2) {
+      if (s == '375x812' || s == '414x896') {
         return 'iPhone XR'
       }
-      if (dpr == 3) {
+    }
+    if (dpr == 3) {
+      if (s == '375x812') {
+        return 'iPhone XS'
+      }
+      if (s == '414x896') {
         return 'iPhone XS Max'
       }
     }

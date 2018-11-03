@@ -50,6 +50,18 @@ test('iPhone XS', 'Apple A12 GPU', 375, 812, 3)
 test('iPhone XS Max', 'Apple A12 GPU', 414, 896, 3)
 test('iPhone XR', 'Apple A12 GPU', 414, 896, 2)
 
+// Display Zoom:
+test('iPhone 6', 'Apple A8 GPU', 320, 568, 2)
+test('iPhone 6 Plus', 'Apple A8 GPU', 375, 667, 3)
+//test('iPhone 6s', 'Apple A9 GPU', 320, 568, 2) // Conflicts with iPhone SE
+test('iPhone 6s Plus', 'Apple A9 GPU', 375, 667, 3)
+test('iPhone 7', 'Apple A10 GPU', 320, 568, 2)
+test('iPhone 7 Plus', 'Apple A10 GPU', 375, 667, 3)
+test('iPhone 8', 'Apple A11 GPU', 320, 568, 2)
+test('iPhone 8 Plus', 'Apple A11 GPU', 375, 667, 3)
+test('iPhone XR', 'Apple A12 GPU', 375, 812, 2)
+//test('iPhone XS Max', 'Apple A12 GPU', 375, 812, 3) // Conflicts with iPhone XS
+
 test('iPad 2/mini 1', 'PowerVR SGX 535', 768, 1024, 1)
 test('iPad 3', 'PowerVR SGX 543', 768, 1024, 2)
 test('iPad 4', 'PowerVR SGX 554', 768, 1024, 2)
@@ -66,10 +78,10 @@ test('iPad Pro 11 (2018)', 'Apple A12X GPU', 834, 1194, 2)
 test('iPad Pro 12.9 (2018)', 'Apple A12X GPU', 1024, 1366, 2)
 
 test('iPod Touch 5', 'PowerVR SGX 543', 320, 568, 2, 'Mozilla/5.0 (iPod touch; ...')
-test('iPod Touch 6', 'Apple A8 GPU', 320, 568, 2)
+test('iPod Touch 6', 'Apple A8 GPU', 320, 568, 2, 'Mozilla/5.0 (iPod touch; ...')
 
 test(undefined, 'Some GPU', 320, 568, 2)
-test('Unidentified A10 320x568@2', 'Apple A10 GPU', 320, 568, 2)
+test('Unidentified A12 320x568@2', 'Apple A12 GPU', 320, 568, 2)
 test('Unidentified A13 375x812@3', 'Apple A13 GPU', 375, 812, 3)
 test('Unidentified A15 400x800@4', 'Apple A15 GPU', 400, 800, 4)
 test('Unidentified A16X 400x800@4', 'Apple A16X GPU', 400, 800, 4)
