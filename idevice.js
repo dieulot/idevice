@@ -58,7 +58,7 @@ var iDevice = (function() {
       return 'iPod Touch 6'
     }
     if (cpu == 'A9') {
-      return 'iPhone SE'
+      return 'iPhone SE (or 6s with Display Zoom)'
     }
   }
 
@@ -123,7 +123,7 @@ var iDevice = (function() {
     }
     if (dpr == 3) {
       if (s == '375x812') {
-        return 'iPhone XS'
+        return 'iPhone XS (or XS Max with Display Zoom)'
       }
       if (s == '414x896') {
         return 'iPhone XS Max'
