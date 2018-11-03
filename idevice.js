@@ -87,10 +87,10 @@ var iDevice = (function() {
 
   if (cpu == 'A9X') {
     if (s == '768x1024') {
-      return 'iPad Pro 9.7 (2016)'
+      return 'iPad Pro 9.7" (2016)'
     }
     if (s == '1024x1366') {
-      return 'iPad Pro 12.9 (2015)'
+      return 'iPad Pro 12.9" (2015)'
     }
   }
 
@@ -102,10 +102,10 @@ var iDevice = (function() {
 
   if (cpu == 'A10X') {
     if (s == '834x1112') {
-      return 'iPad Pro 10.5 (2017)'
+      return 'iPad Pro 10.5" (2017)'
     }
     if (s == '1024x1366') {
-      return 'iPad Pro 12.9 (2017)'
+      return 'iPad Pro 12.9" (2017)'
     }
   }
 
@@ -133,10 +133,10 @@ var iDevice = (function() {
 
   if (cpu == 'A12X') {
     if (s == '834x1194') {
-      return 'iPad Pro 11 (2018)'
+      return 'iPad Pro 11" (2018)'
     }
     if (s == '1024x1366') {
-      return 'iPad Pro 12.9 (2018)'
+      return 'iPad Pro 12.9" (2018)'
     }
   }
 
