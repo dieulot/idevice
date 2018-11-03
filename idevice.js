@@ -140,5 +140,11 @@ var iDevice = (function() {
     }
   }
 
+  if(cpu == 'S4') {
+    if (s == '320x568'){
+      return "Apple Watch Series 4"
+    }
+  }
+
   return 'Unidentified ' + cpu + ' ' + s + '@' + dpr
 })();
