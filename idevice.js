@@ -120,6 +120,12 @@ var iDevice = (function() {
       if (s == '375x812' || s == '414x896') {
         return 'iPhone XR'
       }
+      if (s == '834x1112') {
+        return 'iPad Air (2019)'
+      }
+      if (s == '768x1024') {
+        return 'iPad mini (2019)'
+      }
     }
     if (dpr == 3) {
       if (s == '375x812') {

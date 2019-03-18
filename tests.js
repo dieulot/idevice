@@ -74,6 +74,8 @@ test('iPad Pro 10.5" (2017)', 'Apple A10X GPU', 834, 1112, 2)
 test('iPad (2018)', 'Apple A10 GPU', 768, 1024, 2)
 test('iPad Pro 11" (2018)', 'Apple A12X GPU', 834, 1194, 2)
 test('iPad Pro 12.9" (2018)', 'Apple A12X GPU', 1024, 1366, 2)
+test('iPad Air (2019)', 'Apple A12 GPU', 834, 1112, 2)
+test('iPad mini (2019)', 'Apple A12 GPU', 768, 1024, 2)
 
 test('iPod Touch 5', 'PowerVR SGX 543', 320, 568, 2, 'Mozilla/5.0 (iPod touch; ...')
 test('iPod Touch 6', 'Apple A8 GPU', 320, 568, 2, 'Mozilla/5.0 (iPod touch; ...')
