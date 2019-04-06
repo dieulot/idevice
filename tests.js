@@ -80,6 +80,8 @@ test('iPad mini (2019)', 'Apple A12 GPU', 768, 1024, 2)
 test('iPod Touch 5', 'PowerVR SGX 543', 320, 568, 2, 'Mozilla/5.0 (iPod touch; ...')
 test('iPod Touch 6', 'Apple A8 GPU', 320, 568, 2, 'Mozilla/5.0 (iPod touch; ...')
 
+test('Apple Watch Series 4', 'Apple S4 GPU', 320, 568, 2)
+
 test(undefined, 'Some GPU', 320, 568, 2)
 test('Unidentified A12 320x568@2', 'Apple A12 GPU', 320, 568, 2)
 test('Unidentified A13 375x812@3', 'Apple A13 GPU', 375, 812, 3)
